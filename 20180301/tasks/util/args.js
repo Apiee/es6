@@ -1,6 +1,6 @@
 import yargs from 'yargs';
 
-const args = yargs;
+const args = yargs
 
 	.option('production',{
 		boolean:true,
@@ -31,3 +31,5 @@ const args = yargs;
 	})
 
 	.argv
+
+	export default args;
